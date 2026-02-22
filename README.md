@@ -16,6 +16,8 @@
 
 [🚀 Getting Started](#-quick-start) • [📖 Documentation](#-documentation) • [🔧 Configuration](#-configuration) • [📊 Benchmarks](BENCHMARK.md) • [⬆️ Upgrade to Pro](https://silentchain.ai)
 
+[![Watch the Professional Demo](https://img.shields.io/badge/▶_Watch_Demo-SILENTCHAIN_Professional-red?style=for-the-badge&logo=youtube)](https://youtu.be/yWJK4CvS5pE)
+
 </div>
 
 ---
@@ -337,6 +339,10 @@ This forces analysis even if the URL was previously scanned.
 - 🔄 **Burp Intruder Integration**: Auto-configures fuzzing attacks
 - ⚡ **Smart Fuzzing**: AI-generated payloads for maximum coverage
 
+[![Watch the Professional Demo](https://img.shields.io/badge/▶_Watch_Demo-SILENTCHAIN_Professional-red?style=for-the-badge&logo=youtube)](https://youtu.be/yWJK4CvS5pE)
+
+**See it in action** — watch the full [SILENTCHAIN Professional demo](https://youtu.be/yWJK4CvS5pE) to see AI-powered active verification, WAF evasion, and automated fuzzing at work.
+
 **Contact us for commercial licensing and professional editions:** support@sn1persecurity.com
 
 ---
@@ -483,7 +489,7 @@ Inspired by the security community's dedication to making the web safer.
 
 **SILENTCHAIN AI™** - *Intelligent Security Testing for the Modern Web*
 
-[Website](https://silentchain.ai) • [Documentation](#-documentation) • [Professional Edition](https://silentchain.ai/)
+[Website](https://silentchain.ai) • [Documentation](#-documentation) • [Professional Edition](https://silentchain.ai/) • [Professional Demo](https://youtu.be/yWJK4CvS5pE)
 
 **Copyright © 2026 SN1PERSECURITY LLC. All rights reserved.**
 
