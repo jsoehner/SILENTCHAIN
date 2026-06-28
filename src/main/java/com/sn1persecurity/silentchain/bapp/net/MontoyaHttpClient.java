@@ -1,7 +1,7 @@
 package com.sn1persecurity.silentchain.bapp.net;
 
 import burp.api.montoya.MontoyaApi;
-import burp.api.montoya.http.HttpService;
+import burp.api.montoya.http.RequestOptions;
 import burp.api.montoya.http.message.HttpRequestResponse;
 import burp.api.montoya.http.message.requests.HttpRequest;
 import burp.api.montoya.http.message.responses.HttpResponse;
@@ -59,7 +59,11 @@ public class MontoyaHttpClient {
 
     private HttpReply send(HttpRequest request) {
         try {
-            HttpRequestResponse rr = api.http().sendRequest(request);
+            // BApp AI requirement: third-party LLM requests must use Montoya
+            // networking WITH upstream TLS verification so a MITM cannot tamper
+            // with prompts/responses. (Harmless for plain-HTTP localhost Ollama.)
+            HttpRequestResponse rr = api.http().sendRequest(
+                    request, RequestOptions.requestOptions().withUpstreamTLSVerification());
             HttpResponse resp = rr.response();
             if (resp == null) {
                 return new HttpReply(0, "", Collections.emptyMap());

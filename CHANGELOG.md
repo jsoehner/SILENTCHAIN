@@ -26,6 +26,10 @@ _No unreleased changes._
   AI extensions; on-demand analysis via right-click **Analyze (SILENTCHAIN)**.
 - Findings emitted as native Burp Scanner issues; structured, parameter-aware prompts improve
   injection/logic detection (SQLi, LFI/path traversal, XSS, open redirect, CSRF).
+- BApp Store AI compliance: Burp AI is the default provider, AI support is declared via
+  `EnhancedCapability.AI_FEATURES`, `ai.isEnabled()` is checked before every Burp AI call, and
+  third-party provider requests use Montoya networking with
+  `RequestOptions.withUpstreamTLSVerification()`.
 - Docs updated to the Java edition; legacy Python source removed.
 
 ### Removed
