@@ -4,71 +4,91 @@ Copyright (c) 2026 SN1PERSECURITY LLC. All rights reserved.
 
 This license governs the use of SILENTCHAIN AI™ Community Edition ("Software"). By downloading, installing, using, or distributing the Software, you agree to the terms of this license.
 
-1. GRANT OF LICENSE
-SN1PERSECURITY LLC ("Licensor") grants you a limited, non-exclusive, non-transferable, revocable license to:
-- Use the Software for personal, educational, research, and internal commercial security testing purposes.
-- Run the Software within Burp Suite or compatible security testing tools.
+1. LICENSE GRANT
 
-This license does not grant ownership of the Software.
+SN1PERSECURITY LLC ("Licensor") grants you a limited, non-exclusive, non-transferable, revocable license to:
+
+    Use the Software for personal, educational, research, and authorized internal security testing purposes.
+    Run the Software within Burp Suite or compatible security testing tools.
+
+Use of the Software does not grant any right to integrate it into a product or service offered to third parties.
+
+This license does not grant you ownership of the Software or any rights not expressly granted herein.
 
 2. RESTRICTIONS
+
 You may NOT:
-- Sell, sublicense, or commercially exploit the Software or any derivative works.
-- Offer the Software as a paid product, hosted service, or SaaS offering.
-- Modify, fork, or redistribute modified versions of the Software.
-- Create competing products or services based on the Software.
-- Remove or alter copyright, trademark, or license notices.
 
-3. SOURCE CODE AVAILABILITY
-The source code is provided for transparency and security review only. Access to source code does not grant rights to copy, modify, or redistribute except as explicitly permitted in this license.
+    Sell, sublicense, or commercially exploit the Software or any derivative works.
+    Offer the Software as a paid service, hosted service, or SaaS.
+    Redistribute the Software in modified or unmodified form outside of your organization or for third parties, without prior written permission from Licensor.
+    Remove, obscure, or modify any copyright, trademark, or license notices.
+    Use the Software to create a competing product or service that replicates its core functionality.
 
-4. PORTSWIGGER / BURP SUITE DISTRIBUTION EXCEPTION
-Notwithstanding the restrictions above, SN1PERSECURITY LLC grants PortSwigger Ltd. a perpetual, royalty-free right to:
-- Redistribute the Software via the Burp Suite BApp Store.
-- Host and provide downloads of the Software on PortSwigger-controlled platforms.
-- Bundle the Software with Burp Suite or related PortSwigger products.
+3. SOURCE CODE
 
-PortSwigger Ltd. may distribute the Software free of charge to end users, provided that attribution to SN1PERSECURITY LLC is maintained. This permission does not grant PortSwigger Ltd. the right to modify, sublicense, or sell the Software beyond what is expressly stated here.
+Source code may be made available for transparency, review, and legitimate security research purposes only.
+
+Access to source code does not grant any rights to:
+
+    modify the Software for redistribution,
+    create derivative works for public or commercial use,
+    or republish the Software in any form.
+
+4. PORTSWIGGER / BURP SUITE DISTRIBUTION
+
+Notwithstanding the restrictions above, SN1PERSECURITY LLC grants PortSwigger Ltd. a perpetual, worldwide, royalty-free license to:
+
+    Redistribute the Software via the Burp Suite BApp Store or other official PortSwigger channels.
+    Host and distribute the Software as part of Burp Suite ecosystems.
+    Include the Software in Burp Suite-related listings or catalogs.
+
+PortSwigger Ltd. may provide the Software free of charge to end users. Attribution to SN1PERSECURITY LLC must be retained where reasonably practicable.
 
 No other third party is granted redistribution rights without prior written permission from SN1PERSECURITY LLC.
 
-5. OWNERSHIP AND INTELLECTUAL PROPERTY
-The Software is licensed, not sold. SN1PERSECURITY LLC retains all right, title, and interest in and to the Software, including all copyrights, patents, and other intellectual property rights.
+5. OWNERSHIP
 
-6. TRADEMARK NOTICE
-"SILENTCHAIN AI™", "SILENTCHAIN™", and the SILENTCHAIN AI logo are trademarks or trade names of SN1PERSECURITY LLC. This license does not grant permission to use these trademarks, service marks, or logos for marketing, branding, or product naming without prior written permission from SN1PERSECURITY LLC.
+The Software is licensed, not sold. SN1PERSECURITY LLC retains all rights, title, and interest in and to the Software, including all copyrights, patents, trade secrets, and other intellectual property rights.
+
+6. TRADEMARKS
+
+"SILENTCHAIN AI™", "SILENTCHAIN™", and associated branding are trademarks of SN1PERSECURITY LLC.
+
+No rights are granted to use these trademarks for marketing, branding, or product identification without prior written permission.
 
 7. RESPONSIBLE USE
-You agree not to use the Software for any unlawful activities, including unauthorized access to systems you do not own or have explicit permission to test.
+
+You agree to use the Software only for lawful security testing on systems you own or are explicitly authorized to test.
 
 8. DISCLAIMER OF WARRANTY
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
 
 9. LIMITATION OF LIABILITY
+
 IN NO EVENT SHALL SN1PERSECURITY LLC OR ITS MEMBERS, OFFICERS, EMPLOYEES, OR AGENTS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 10. GOVERNING LAW
+
 This license shall be governed by and construed in accordance with the laws of the State of Arizona, United States, without regard to conflict of law principles.
 
 11. TERMINATION
-This license is automatically terminated if you violate any of its terms. Upon termination, you must cease all use of the Software and destroy all copies.
 
-12. COMMERCIAL AND PROFESSIONAL EDITIONS
-This license applies only to SILENTCHAIN AI™ Community Edition. SN1PERSECURITY LLC may offer paid or commercial editions under separate license terms. No rights to paid editions are granted under this license.
+This license is automatically terminated if you violate any of its terms. Upon termination, you must cease use of the Software.
 
-13. EXPORT CONTROL
-The Software is subject to the United States Export Administration Regulations (EAR), 15 C.F.R. Parts 730-774, administered by the Bureau of Industry and Security (BIS) of the U.S. Department of Commerce, and to sanctions programs administered by the U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC).
+12. COMMERCIAL EDITION
 
-Export Classification: The Software contains information security functionality, including AI-driven vulnerability detection, OWASP Top 10 classification, and integration with cryptographic libraries and TLS implementations for secure API communication. The Software may be classified under Export Control Classification Number (ECCN) 5D002 or 5D992. Use, export, re-export, transfer (in country), or release of the Software is subject to the license requirements and exceptions of the EAR. This classification is provided in good faith based on the Software's technical characteristics and is not a substitute for a formal commodity classification determination.
+This license applies only to SILENTCHAIN AI™ Community Edition.
 
-Restricted Destinations and Parties: You may NOT export, re-export, transfer, provide access to, or otherwise make the Software available, directly or indirectly, to:
-- Any country, region, or territory subject to comprehensive U.S. trade sanctions or embargoes, which as of the effective date include Cuba, Iran, North Korea, Syria, and the Russian-occupied regions of Crimea, Donetsk, Luhansk, Kherson, and Zaporizhzhia of Ukraine (the "Restricted Territories"); the Restricted Territories list is subject to change by OFAC and BIS and you are responsible for consulting the then-current lists.
-- Any individual or entity on the U.S. Treasury Department's Specially Designated Nationals and Blocked Persons List (SDN List), the U.S. Department of Commerce Entity List, the Denied Persons List, the Unverified List, the Military End User (MEU) List, or any other U.S. government restricted-party list.
-- Any party where you know or have reason to know the Software will be used in connection with the design, development, production, stockpiling, or use of nuclear, chemical, or biological weapons; missile technology; or any other end-use prohibited by U.S. law or the EAR.
-- Any "military end user" or "military-intelligence end user" in a country listed in EAR Section 744.21 or Section 744.22 without the required BIS authorization.
+SN1PERSECURITY LLC may offer separate commercial or professional editions under different terms. No rights to any commercial edition are granted under this license.
 
-Compliance Obligation: You represent and warrant that (a) you are not located in, under the control of, or a national or resident of any Restricted Territory; (b) you are not listed on any U.S. government restricted-party list; and (c) your use, export, re-export, or transfer of the Software complies with all applicable U.S. and foreign export control, sanctions, customs, and anti-boycott laws and regulations. You are solely responsible for obtaining any export licenses, end-user statements, or other authorizations required for your use of the Software. This obligation survives termination of this license.
+13. EXPORT AND LEGAL COMPLIANCE
+
+You agree to comply with all applicable export control, sanctions, and trade compliance laws and regulations.
 
 14. CONTACT
-Commercial licensing, redistribution permissions, and enterprise agreements may be available upon request.
-Contact: support@sn1persecurity.com
+
+For commercial licensing, enterprise agreements, or redistribution permissions:
+
+support@sn1persecurity.com
